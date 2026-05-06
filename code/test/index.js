@@ -3,8 +3,8 @@ const assert = require('assert');
 
 describe('TEST DE SUMA', () => {
   it('Numero Positivo', () => {
-    assert.equal(sum(2,2), 99); // fallo provocado
-});
+    assert.equal(sum(2,2), 4);
+  });
   it('Numero Negativo', () => {
     assert.equal(sum(3, -5), -2);
   });
